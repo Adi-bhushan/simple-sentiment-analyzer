@@ -1,0 +1,9 @@
+[server]
+
+Use a Python version that is compatible with scikit-learn==1.3.0 and older dependencies
+Python 3.11 is a stable, compatible version.
+clientTimeout = 60
+serverTimeout = 60
+
+[runner]
+magicEnabled = true
