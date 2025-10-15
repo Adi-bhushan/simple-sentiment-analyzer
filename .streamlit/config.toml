@@ -5,5 +5,10 @@ Python 3.11 is a stable, compatible version.
 clientTimeout = 60
 serverTimeout = 60
 
+[general]
+
+CRITICAL FIX: Explicitly tell Streamlit Cloud to use Python 3.11
+python_version = 3.11
+
 [runner]
 magicEnabled = true
